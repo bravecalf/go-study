@@ -1,8 +1,13 @@
 package main
 
-import "design-patterns-golang/creational/factory"
+import (
+	"design-patterns-golang/creational/abstract_factory"
+)
 
 func main() {
 	// factory
-	factory.TestFactoryDemo()
+	// factory.TestFactoryDemo()
+
+	// abstract_factory
+	abstract_factory.TestAbstractFactoryDemo()
 }
