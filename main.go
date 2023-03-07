@@ -1,8 +1,6 @@
 package main
 
-import (
-	"design-patterns-golang/creational/singleton"
-)
+import "design-patterns-golang/creational/builder"
 
 func main() {
 	// factory
@@ -12,5 +10,8 @@ func main() {
 	//abstract_factory.TestAbstractFactoryDemo()
 
 	// singleton
-	singleton.TestSingletonDemo()
+	//singleton.TestSingletonDemo()
+
+	// builder
+	builder.TestBuilderDemo()
 }
