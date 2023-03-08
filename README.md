@@ -28,3 +28,8 @@
 原型是一种创建型设计模式， 使你能够复制对象， 甚至是复杂对象， 而又无需使代码依赖它们所属的类。
 
 [prototype design pattern](./creational/prototype)
+
+## 6. 对象池模型
+对象池设计模式是一种创建型设计模式，其中预先初始化和创建对象池并将其保存在池中。当需要时，客户端可以从池中请求一个对象，使用它，然后将它返回到池中。池中的对象永远不会被销毁。
+
+[object pool design pattern](./creational/prototype)

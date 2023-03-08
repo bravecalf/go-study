@@ -15,4 +15,7 @@ func main() {
 
 	//prototype
 	//prototype.TestProtoTypeDemo()
+
+	//object pool
+	//object_pool.TestObjectPoolDemo()
 }
