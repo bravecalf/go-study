@@ -1,6 +1,7 @@
 package main
 
 func main() {
+
 	// factory
 	//factory.TestFactoryDemo()
 
@@ -18,4 +19,8 @@ func main() {
 
 	//object pool
 	//object_pool.TestObjectPoolDemo()
+
+	//*******************************
+	// adapter
+	//adapter.TestAdapterDemo()
 }
