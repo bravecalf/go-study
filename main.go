@@ -23,4 +23,7 @@ func main() {
 	//*******************************
 	// adapter
 	//adapter.TestAdapterDemo()
+
+	//bridge
+	//bridge.TestBridgeDemo()
 }
