@@ -16,3 +16,8 @@
 过滤器模式（Filter Pattern）或标准模式（Criteria Pattern）是一种设计模式，这种模式允许开发人员使用不同的标准来过滤一组对象，通过逻辑运算以解耦的方式把它们连接起来。
 
 [filter design pattern](../structural/filter)
+
+## 4. 组合模式
+组合模式（Composite Pattern）创建了一个包含自己对象组的类。该类提供了修改相同对象组的方式。可以使用它将对象组合成树状结构， 并且能像使用独立对象一样使用它们。
+
+[composite design pattern](../structural/composite)

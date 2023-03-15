@@ -1,7 +1,5 @@
 package main
 
-import "design-patterns-golang/structural/filter"
-
 func main() {
 
 	// factory
@@ -30,5 +28,8 @@ func main() {
 	//bridge.TestBridgeDemo()
 
 	//filter
-	filter.TestFilterDemo()
+	//filter.TestFilterDemo()
+
+	//composite
+	//composite.TestCompositeDemo()
 }
