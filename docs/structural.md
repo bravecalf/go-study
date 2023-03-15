@@ -11,3 +11,8 @@
 用于把抽象化与实现化解耦,使得实体类的功能独立于接口实现类,可将业务逻辑或一个大类拆分为不同的层次结构， 从而能独立地进行开发。
 
 [bridge design pattern](../structural/bridge)
+
+## 3. 过滤器模式
+过滤器模式（Filter Pattern）或标准模式（Criteria Pattern）是一种设计模式，这种模式允许开发人员使用不同的标准来过滤一组对象，通过逻辑运算以解耦的方式把它们连接起来。
+
+[filter design pattern](../structural/filter)
