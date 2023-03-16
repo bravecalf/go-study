@@ -32,4 +32,7 @@ func main() {
 
 	//composite
 	//composite.TestCompositeDemo()
+
+	//decorator
+	//decorator.TestDecoratorDemo()
 }

@@ -21,3 +21,8 @@
 组合模式（Composite Pattern）创建了一个包含自己对象组的类。该类提供了修改相同对象组的方式。可以使用它将对象组合成树状结构， 并且能像使用独立对象一样使用它们。
 
 [composite design pattern](../structural/composite)
+
+## 5. 装饰器模式
+装饰器模式（Decorator Pattern）允许向一个现有的对象添加新的功能，同时又不改变其结构。装饰器模式一般用在基类功能封装不错，但使用的时候需要对功能进行一些加强，而这些加强版的功能也会被其它加强版需要，这种就比较适合。
+
+[decorator design pattern](../structural/decorator)
