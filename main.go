@@ -1,5 +1,9 @@
 package main
 
+type Pepppp struct {
+	Name string
+}
+
 func main() {
 
 	// factory
@@ -38,4 +42,7 @@ func main() {
 
 	//facade
 	//facade.TestFacadeDemo()
+
+	//flyweight
+	//flyweight.TestFlyweightDemo()
 }
