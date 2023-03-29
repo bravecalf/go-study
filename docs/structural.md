@@ -26,3 +26,8 @@
 装饰器模式（Decorator Pattern）允许向一个现有的对象添加新的功能，同时又不改变其结构。装饰器模式一般用在基类功能封装不错，但使用的时候需要对功能进行一些加强，而这些加强版的功能也会被其它加强版需要，这种就比较适合。
 
 [decorator design pattern](../structural/decorator)
+
+## 6. 外观模式
+外观模式（Facade Pattern）隐藏系统的复杂性，并向客户端提供了一个客户端可以访问系统的接口。这种模式涉及到一个单一的类，该类提供了客户端请求的简化方法和对现有系统类方法的委托调用。
+
+[facade design pattern](../structural/facade)

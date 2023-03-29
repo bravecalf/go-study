@@ -35,4 +35,7 @@ func main() {
 
 	//decorator
 	//decorator.TestDecoratorDemo()
+
+	//facade
+	//facade.TestFacadeDemo()
 }
