@@ -1,9 +1,5 @@
 package main
 
-type Pepppp struct {
-	Name string
-}
-
 func main() {
 
 	// factory
@@ -45,4 +41,7 @@ func main() {
 
 	//flyweight
 	//flyweight.TestFlyweightDemo()
+
+	//proxy
+	//proxy.TestProxyDemo()
 }
