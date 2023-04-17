@@ -16,7 +16,7 @@ func TestDoParallelProcessing(t *testing.T) {
 		mutex.Unlock()
 		return nil
 	}
-	productions := make([]int, 100)
+	productions := []int{1, 2, 3, 4, 4}
 	if err := DoParallelProcessing(20, f, productions); err != nil {
 		fmt.Println("error:", err)
 	}

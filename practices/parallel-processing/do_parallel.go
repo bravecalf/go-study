@@ -27,15 +27,15 @@ func DoParallelProcessing(workersNum int, doPart func(interface{}) error, args i
 	for _, production := range productions {
 		workChan <- struct{}{}
 		wg.Add(1)
-		go func() {
+		go func(item interface{}) {
 			defer func() {
 				<-workChan
 				wg.Done()
 			}()
-			if partErr := doPart(production); partErr != nil {
+			if partErr := doPart(item); partErr != nil {
 				err = partErr
 			}
-		}()
+		}(production)
 
 		if err != nil {
 			break
