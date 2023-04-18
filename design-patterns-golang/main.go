@@ -44,4 +44,8 @@ func main() {
 
 	//proxy
 	//proxy.TestProxyDemo()
+
+	//*******************************
+	//chain of responsibility
+	//chain_of_responsibility.TestChainOfResponsibility()
 }
