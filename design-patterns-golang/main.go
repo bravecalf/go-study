@@ -51,4 +51,7 @@ func main() {
 
 	//command
 	//command.TestCommandDemo()
+
+	//interpreter
+	//interpreter.TestInterpreterDemo()
 }
