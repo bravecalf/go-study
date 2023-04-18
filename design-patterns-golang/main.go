@@ -48,4 +48,7 @@ func main() {
 	//*******************************
 	//chain of responsibility
 	//chain_of_responsibility.TestChainOfResponsibility()
+
+	//command
+	//command.TestCommandDemo()
 }
