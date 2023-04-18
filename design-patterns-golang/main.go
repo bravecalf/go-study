@@ -54,4 +54,7 @@ func main() {
 
 	//interpreter
 	//interpreter.TestInterpreterDemo()
+
+	//iterator
+	//iterator.TestIteratorDemo()
 }
