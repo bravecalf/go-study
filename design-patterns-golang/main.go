@@ -60,4 +60,7 @@ func main() {
 
 	//mediator
 	//mediator.TestMediatorDemo()
+
+	//memento
+	//memento.TestMementoDemo()
 }
