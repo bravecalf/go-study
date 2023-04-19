@@ -1,8 +1,10 @@
 package state
 
 type Object struct {
-	state State
-	name  string
+	state    State
+	name     string
+	onState  State
+	offState State
 }
 
 func (o *Object) setState(s State) {
@@ -10,5 +12,5 @@ func (o *Object) setState(s State) {
 }
 
 func (o *Object) execute() {
-	o.state.doAction(o.name)
+	o.state.doAction(o)
 }

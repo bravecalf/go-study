@@ -72,4 +72,5 @@ func main() {
 
 	//null object
 	//null_object.TestNullObjectDemo()
+
 }

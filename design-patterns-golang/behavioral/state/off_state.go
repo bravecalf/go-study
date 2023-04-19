@@ -6,6 +6,7 @@ import "fmt"
 type OffState struct {
 }
 
-func (o OffState) doAction(object string) {
-	fmt.Printf("turn %s off\n", object)
+func (o OffState) doAction(object *Object) {
+	fmt.Printf("turn %s off\n", object.name)
+	object.state = object.onState
 }
