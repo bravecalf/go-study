@@ -38,3 +38,9 @@
 观察者模式（Observer Pattern）是一种行为设计模式， 允许你定义一种订阅机制， 可在对象事件发生时通知多个 “观察” 该对象的其他对象。
 
 [observer design pattern](../behavioral/observer)
+
+## 8. 状态模式
+在状态模式（State Pattern）中，类的行为是基于它的状态改变的。这种类型的设计模式属于行为型模式。 在状态模式中，我们创建表示各种状态的对象和一个行为随着状态对象改变而改变的 context 对象。
+状态模式是一种行为设计模式， 让你能在一个对象的内部状态变化时改变其行为。
+
+[state design pattern](../behavioral/state)

@@ -1,7 +1,5 @@
 package main
 
-import "design-patterns-golang/design-patterns-golang/behavioral/observer"
-
 func main() {
 
 	// factory
@@ -67,5 +65,8 @@ func main() {
 	//memento.TestMementoDemo()
 
 	//observer
-	observer.TestObserverDemo()
+	//observer.TestObserverDemo()
+
+	//state
+	//state.TestStateDemo()
 }
