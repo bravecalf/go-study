@@ -69,4 +69,7 @@ func main() {
 
 	//state
 	//state.TestStateDemo()
+
+	//null object
+	//null_object.TestNullObjectDemo()
 }
