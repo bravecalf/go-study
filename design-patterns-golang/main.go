@@ -57,4 +57,7 @@ func main() {
 
 	//iterator
 	//iterator.TestIteratorDemo()
+
+	//mediator
+	//mediator.TestMediatorDemo()
 }
