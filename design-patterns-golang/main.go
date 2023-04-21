@@ -73,4 +73,7 @@ func main() {
 	//null object
 	//null_object.TestNullObjectDemo()
 
+	//strategy
+	//strategy.TestStrategyDemo()
+
 }
