@@ -79,4 +79,7 @@ func main() {
 	//template
 	//template.TestTemplateDemo()
 
+	//visitor
+	//visitor.TestVisitorDemo()
+
 }
