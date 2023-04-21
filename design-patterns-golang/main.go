@@ -76,4 +76,7 @@ func main() {
 	//strategy
 	//strategy.TestStrategyDemo()
 
+	//template
+	//template.TestTemplateDemo()
+
 }
